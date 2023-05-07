@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grand City - Membership</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .form1{
+            text-align: right;
+            margin-right: 25%;
+        }
+        .text1{
+            display: block;
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="header">
+        <i>Grand City</i>
+    </div>
+    <div class="navbar">
+        <a href="HomePage.html">HOME</a>
+        <a href="location.html">FLOOR</a>
+        <a id="post" href="">MEMBERSHIP</a>
+        <a href="aboutUs.html">ABOUT</a>
+    </div>
+    
+
+    <form class="form"> 
+        <p class="text1">Join and become a part of our membership system! <br>
+        </p>
+            <div class="form1">
+                <label for="nameCheck"> Member Name </label>
+                <input type="text" id="nameCheck">
+                <br>
+                <br>
+                <label for="ageCheck"> Age</label>
+                <input type="number" id="ageCheck"><br>
+            </div>
+            <br>
+            <span>Gender
+                    <input type="radio" name="radio_btn" class="pointer" value="Male" id="male_rad">
+                    <label for="male_rad">Male</label>
+                    <input type="radio" name="radio_btn" class="pointer" value="Female" id="female_rad">
+                    <label for="female_rad">Female</label>
+            </span>
+            
+
+            <div class="form1">
+                <br>
+                <label for="emailCheck">Email </label>
+                    <input type="email" id="emailCheck"><br>
+                <br>
+                <label for="pwCheck">New Password </label>
+                    <input type="password" id="pwCheck">
+                    <br>
+                <br>
+                <label for="cpCheck">Confirm Password </label>
+                    <input type="password" id="cpCheck"><br>
+                <br>
+            </div>
+
+
+        
+       
+        <div class="text1">
+                <label for="member-select">Membership Type<br></label>
+                <select name="" id="member-select">
+                    <option value="none">Please Choose a Membership Type</option>
+                    <option value="1">Normal</option>
+                    <option value="2">Silver(5$)</option>
+                    <option value="3">Golden(7$)</option>
+                    <option value="4">Diamond(10$)</option>
+                </select>
+                <br><br>
+                <input type="checkbox" id="checkBoxcheck" class="pointer">
+                <label for="checkBoxcheck">I agree with all the terms and conditions</label>
+            <br>
+                <button class="back"><a href="HomePage.html">Home</a></button>
+            <input type="submit" class="buttons">
+        </div>
+    </form>
+
+    <div id="footer">
+        <h5>
+            <i>Grand City</i>
+            <a href="HomePage.html">HOME</a>  |
+            <a href="location.html">FLOOR</a> |
+            <a href="">MEMBERSHIP</a> |
+            <a href="aboutUs.html">ABOUT</a>
+            <br><br> Grand City Mall © 2022
+        </h5>
+    </div>
+
+</body>
+</html>

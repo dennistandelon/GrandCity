@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grand City</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .banner{
+            background-image: url(./Asset/test.png);
+            width: 98%;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: 10px;
+            height: 90vh;
+            position: relative;
+        }
+        .banner:hover::before{
+            content: '';
+            padding-top: 100px;
+            padding-right: 2%;
+            position: absolute;
+            width: inherit;
+            height: calc(90vh - 100px);
+            justify-items: center;
+            background-color: blue;
+            opacity: 0.3;
+        }
+
+        .banner:hover::after{
+            content: 'Welcome to Grand City';
+            font-size: 65px;
+            text-align: center;
+            padding-top: 100px;
+            padding-right: 2%;
+            color: white;
+            font-family: Arial, Helvetica, sans-serif;
+            position: absolute;
+            width: inherit;
+            height: calc(90vh - 100px);
+            justify-items: center;
+            background: none;
+            opacity: 1;
+        }
+
+
+        .banner div{
+            text-align: center;
+            color: white;
+            padding-top: 100px;
+            font-size: 500%;
+            font-style: italic;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        }
+        .promos{
+            background-color: #e5e5e5;
+        }
+
+        .promos h3{
+            display: block;
+            text-align: center;
+            padding: 14px;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        }
+        .tent, .tent a{
+            text-decoration: none;
+            display: inline;
+        }
+        .picture{
+            width: 140px;
+            height: 140px;
+            margin: 20px;
+            display: inline;
+        }
+        .promopic{
+            width: 360px;
+            height: 360px;
+            margin: 20px;
+            display: inline;
+        }
+        .box2{
+            margin: 10px;
+            margin-left: 20%;
+            margin-right: 20%;
+            border: 2px solid #e5e5e5;
+        }
+        h4{
+            display: block;
+            text-align: center;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="header">
+        <i>Grand City</i>
+    </div>
+    <div class="navbar">
+        <a id="post" href="">HOME</a>
+        <a href="location.html">FLOOR</a>
+        <a href="memberShip.html">MEMBERSHIP</a>
+        <a href="aboutUs.html">ABOUT</a>
+    </div>
+    <div class="banner">
+        <div></div>
+    </div>
+    <div class="promos">
+        <h3>PROMO</h3>
+        <span class="tent">
+            <a href="https://kfcku.com/">
+                <img class="promopic" src="./Asset/promo1.png" alt="" >
+            </a>
+        </span>
+        <span class="tent">
+            <a href="https://www.instagram.com/menantea.toko/?hl=en">
+                <img class="promopic" src="./Asset/promo2.png" alt="" >
+            </a>
+        </span>
+        <span class="tent">
+            <a href="https://bkdelivery.co.id/">
+                <img class="promopic" src="./Asset/promo3.png" alt="" >
+            </a>
+        </span>
+    </div>
+    <div class="content"> 
+        
+        <h4>OUR PARTNERS</h4>
+        <div class="box2">
+            <span class="tent">
+                <a href="https://www.samsung.com/id/smartphones/galaxy-s22-ultra/buy/?cid=id_pd_ppc_google_galaxy-s22-series_sustain_004-0571001-im-galaxys22series-22q2-ss-r1-ppc-conv-w-kwb-smsg_text_none_none&gclid=EAIaIQobChMIgv6qi-T19wIV3ZNmAh09RgzzEAAYASAAEgIUH_D_BwE&gclsrc=aw.ds">
+                    <img class="picture"src="./Asset/samsung.png" alt="" >
+                </a>
+            </span>
+            <span class="tent">
+                <a href="https://www.instagram.com/menantea.toko/?hl=en">
+                    <img class="picture" src="./Asset/menantea.png" alt="">
+                </a>
+            </span>
+            <span class="tent">
+                <a href="https://21cineplex.com/">
+                    <img class="picture" src="./Asset/cinema.png" alt="">
+                </a>
+            </span>
+            <span class="tent">
+                <a href="https://www.apple.com/id/">
+                    <img class="picture" src="./Asset/Apple.png" alt="">
+                </a>
+            </span>
+            <span class="tent">
+                <a href="https://kfcku.com/">
+                    <img class="picture" src="./Asset/kfc.png" alt="">
+                </a>
+            </span>
+            <span class="tent">
+                <a href="https://bkdelivery.co.id/">
+                    <img class="picture" src="./Asset/burgerking.png" alt="">
+                </a>
+            </span>
+            <h4>Coming Soon...</h4>
+                
+        </div>
+    </div>
+    <div id="footer">
+        <h5>
+            <i>Grand City</i>
+            <a href="">HOME</a>  |
+            <a href="location.html">FLOOR</a> |
+            <a href="memberShip.html">MEMBERSHIP</a> |
+            <a href="aboutUs.html">ABOUT</a>
+            <br><br> Grand City Mall © 2022
+        </h5>
+    </div>
+</body>
+</html>

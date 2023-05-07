@@ -1,0 +1,154 @@
+body{
+    margin: 0;
+}
+
+#header{
+    background-color: white;
+    padding: 12px;
+}
+
+#header i{
+    color: #187ce2;
+    font-weight: bold;
+    font-size: 28px;
+    display: inline;
+    margin: 18px;
+}
+
+.box::first-line{
+    font-weight: bold;
+    text-align: center;
+    font-size: large;
+}
+
+
+.navbar{
+    width: 100%;
+    background-color: #187ce2;
+    padding-top: 14px;
+    padding-bottom: 14px;
+    overflow: hidden;
+}
+
+.box1{
+    border: 7px solid;
+    height: 50vh;
+    text-align: right;
+    background-image: url("Asset/test.png");
+    background-position: top;
+    color: white;
+}
+
+.box1 span{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 30px;
+    top: 25vh;
+    right: 5vh;
+    position: relative;
+}
+
+.box1 p{
+    font-size: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.navbar a{
+    color: white;
+    font-size: 18px;
+    text-align: center;
+    font-family: IFQ;
+    text-decoration: none;
+    text-align: center;
+    margin-left: 22px;
+    display: inline;
+    padding: 12px;
+}
+
+#post{
+    border-bottom: 10px solid greenyellow;
+}
+
+.navbar a:hover{
+    color: #6effff;
+}
+
+a{
+    display: block;
+}
+
+.content h3{
+    text-align: center;
+    border-bottom: 1px solid #e5e5e5;
+}
+
+#footer{
+    background-color: black;
+    bottom: 0;
+    width: 100%;
+    padding-top: 14px;
+    padding-bottom: 14px;
+    text-align: center;
+}
+
+#footer i{
+    color: #e5e5e5;
+    font-weight: bold;
+    font-size: 28px;
+    display: block;
+    margin: 0;
+}
+
+#footer a, h5{
+    color: #e5e5e5;
+    text-align: center;
+    text-decoration: none;
+    margin: 0;
+    display: inline-block;
+}
+
+#footer a:hover{
+    text-decoration: underline;
+}
+
+.form{
+    margin: 20px;
+    margin-right: 30%;
+    margin-left: 30%;
+    text-align: center;
+    border: 3px solid #84aef8;
+}
+
+
+.buttons{
+    background-color: #84aef8;
+    color: white;
+    border: none;
+    margin: 10px;
+    width: 85px;
+    height: 25px;
+}
+
+.back{
+    background-color: #e5e5e5;
+    border: none;
+    margin: 10px;
+    width: 85px;
+    height: 25px;
+}
+
+.back a{
+    text-decoration: none;
+    color: black;
+}
+
+
+.buttons:hover, .back:hover{
+    background-color: #187ce2;
+    cursor: pointer;
+}
+
+.pointer:hover, label:hover{
+    cursor: pointer;
+}
+
+
